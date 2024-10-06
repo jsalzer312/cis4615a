@@ -1,1 +1,3 @@
-java -Xverify:none ApplicationName
+
+java -Xverify:all ApplicationName
+
