@@ -1,3 +1,4 @@
+
 Path file = new File("file").toPath();
  
 // Throw exception rather than overwrite existing file
@@ -15,3 +16,4 @@ try (SeekableByteChannel sbc =
          Files.newByteChannel(file, options, attr)) {
   // Write data
 };
+
