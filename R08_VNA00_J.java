@@ -20,3 +20,4 @@ final class ControlledStop implements Runnable {
       done = true;
     }
   }
+
