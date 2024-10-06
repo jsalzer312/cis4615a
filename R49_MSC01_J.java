@@ -1,3 +1,4 @@
+
 public final int DURATION=10000; // In milliseconds
  
 public void nop() throws InterruptedException {
@@ -5,4 +6,3 @@ public void nop() throws InterruptedException {
     // Useful operations
     Thread.sleep(DURATION);
   }
-}
